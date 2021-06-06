@@ -1,0 +1,9 @@
+.delete-icon {
+    width: 25px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.delete-icon:hover {
+    opacity: 1;
+}
