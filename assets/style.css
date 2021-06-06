@@ -1,3 +1,76 @@
+/*               
+    Overall settings
+*/
+
+:root {
+    font-family: 'Times New Roman', 'Courier New', Courier, monospace;
+    --add-task-button-color: #33ff77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*               
+    Header
+*/
+
+#header-container {
+    background-color: blue;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-title {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/*               
+    Main
+*/
+
+main {
+    width: min(800px, 90vw);
+    margin: auto;
+}
+
+
+/*               
+    Buttons
+*/
+
+#add-task-button{
+    padding: 1rem;
+    border: none;
+    font-size: 1.3em;
+    color: white;
+    background-color: var(--add-task-button-color);
+    cursor: pointer;
+    border-radius: .5rem;
+    border: .5px solid white;
+    margin-top: 1rem;
+}
+
+#add-task-button:hover {
+    background-color: white;
+    color: var(--add-task-button-color);
+    border: .5px solid var(--add-task-button-color);
+}
+
+
+/*               
+    Icons
+*/
+
 .delete-icon {
     width: 25px;
     opacity: .7;
@@ -7,3 +80,15 @@
 .delete-icon:hover {
     opacity: 1;
 }
+
+/*               
+    Footer
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    opacity: .8;
+    color: grey;
+}
+
