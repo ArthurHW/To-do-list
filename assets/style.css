@@ -10,9 +10,19 @@
     font-family: 'Roboto';
 }
 
+body {
+    display:flex;
+}
+
+#container {
+    width: 100%;
+}
+
 /* 
     Header
 */
+
+
 
 header {
     height: 50px;
